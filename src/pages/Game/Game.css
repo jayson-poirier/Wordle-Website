@@ -1,0 +1,30 @@
+.center {
+    display: flex;
+    justify-content: center;
+}
+.game-banner {
+    margin: 10px 0;
+}
+.game-banner-letter {
+    font-weight: bold;
+    font-size: 50px;
+    margin-right: 4px;
+}
+.separator {
+    background-color: #848484;
+    height: 1px;
+}
+.words-grid {
+    margin: 10px 0 20px;
+}
+.letter-box {
+    border: 2px #3A3B3C solid;
+    height: 80px;
+    width: 80px;
+    margin: 15px 5px 5px;
+}
+.key {
+    height: 60px;
+    width: 60px;
+    background-color: #848484;
+}
