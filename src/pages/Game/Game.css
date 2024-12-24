@@ -2,29 +2,49 @@
     display: flex;
     justify-content: center;
 }
+
 .game-banner {
     margin: 10px 0;
 }
+
 .game-banner-letter {
     font-weight: bold;
     font-size: 50px;
     margin-right: 4px;
 }
+
 .separator {
     background-color: #848484;
-    height: 1px;
+    height: 2px;
 }
+
 .words-grid {
-    margin: 10px 0 20px;
+    display: grid;
+    margin: 15px 0 15px;
 }
+
 .letter-box {
     border: 2px #3A3B3C solid;
+    display: inline-block;
     height: 80px;
     width: 80px;
-    margin: 15px 5px 5px;
+    margin: 5px 5px 5px;
 }
+
+.keyboard {
+    display: grid;
+}
+
 .key {
+    display: inline-block;
+    color: white;
     height: 60px;
     width: 60px;
+    margin: 3px;
     background-color: #848484;
+    border-radius: 6px;
+}
+
+#ENTER, #DEL {
+    width: 93px;
 }
