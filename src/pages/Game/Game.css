@@ -26,9 +26,15 @@
 .letter-box {
     border: 2px #3A3B3C solid;
     display: inline-block;
+    vertical-align: top;
     height: 80px;
     width: 80px;
     margin: 5px 5px 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    line-height: 80px;
 }
 
 .keyboard {
@@ -43,6 +49,8 @@
     margin: 3px;
     background-color: #848484;
     border-radius: 6px;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 #ENTER, #DEL {
